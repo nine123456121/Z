@@ -1,5 +1,8 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Z!#7147", "DarkTheme")
+Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.G, function()
+	Library:ToggleUI()
+end)
 local Tab = Window:NewTab("Mainj")
 local Section = Tab:NewSection("Spam")
 Section:NewToggle("Spam", "Click to use Spam", function(state)
