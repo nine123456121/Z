@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Z!#7147", "DarkTheme")
+local Window = Library.CreateLib("Z!#7147 กด G เพื่อ ปิด/เปิด UI", "DarkTheme")
 Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.G, function()
 	Library:ToggleUI()
 end)
